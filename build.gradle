@@ -203,7 +203,7 @@ allprojects {
             implementation("org.testng:testng:7.4.0")
             runtimeOnly("joda-time:joda-time:2.10.10")
             implementation("org.yaml:snakeyaml:1.29")
-            runtimeOnly("org.antlr:antlr-runtime:3.5.2")
+            runtimeOnly("org.antlr:antlr-runtime:3.5.3")
             runtimeOnly("org.apache.jena:jena-arq:3.17.0")
             runtimeOnly("org.codehaus.jackson:jackson-mapper-asl:1.9.14-atlassian-6")
             runtimeOnly("org.codehaus.jackson:jackson-core-asl:1.9.14-atlassian-6")
