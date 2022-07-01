@@ -200,7 +200,7 @@ allprojects {
 	        implementation("commons-configuration:commons-configuration:1.10")
 	        implementation("org.apache.commons:commons-configuration2:2.7")
             // testng also used in our 'source' code to support unit tests
-            implementation("org.testng:testng:7.4.0")
+            implementation("org.testng:testng:7.6.1")
             runtimeOnly("joda-time:joda-time:2.10.10")
             implementation("org.yaml:snakeyaml:1.29")
             runtimeOnly("org.antlr:antlr-runtime:3.5.2")
@@ -224,7 +224,7 @@ allprojects {
             testImplementation("org.mockito:mockito-junit-jupiter:${mockitoVersion}")
             testImplementation("org.mockito:mockito-inline:${mockitoVersion}")
             testImplementation("org.slf4j:slf4j-simple:1.7.31")
-            testImplementation("org.testng:testng:7.3.0")
+            testImplementation("org.testng:testng:7.6.1")
             testImplementation("org.hamcrest:hamcrest:2.2")
             implementation("org.apache.thrift:libthrift:0.14.2")
             implementation("org.elasticsearch.client:elasticsearch-rest-client:7.13.2")
