@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: checkout action code
         if: startsWith(github.repository,'odpi/')
-        uses: actions/checkout@master
+        uses: actions/checkout@v3
       - name: Check links
         if: success()
         id: check_links
