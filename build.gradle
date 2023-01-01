@@ -133,7 +133,7 @@ allprojects {
             implementation("org.apache.avro:avro:1.10.2")
             implementation("org.apache.commons:commons-collections4:4.4")
             implementation("org.apache.commons:commons-lang3:3.12.0")
-            implementation("org.apache.httpcomponents:httpclient:4.5.13")
+            implementation("org.apache.httpcomponents:httpclient:4.5.14")
             implementation("org.apache.httpcomponents:httpcore:${httpcoreVersion}")
             implementation("org.apache.httpcomponents:httpcore-nio:${httpcoreVersion}")
             implementation("org.apache.httpcomponents:httpcore-osgi:${httpcoreVersion}")
