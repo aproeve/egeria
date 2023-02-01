@@ -210,9 +210,9 @@ allprojects {
             runtimeOnly("org.janusgraph:janusgraph-berkeleyje:${janusVersion}")
             runtimeOnly("org.janusgraph:janusgraph-cql:${janusVersion}")
             runtimeOnly("org.janusgraph:janusgraph-lucene:${janusVersion}")
-            runtimeOnly("org.xerial.snappy:snappy-java:1.1.8.4")
+            runtimeOnly("org.xerial.snappy:snappy-java:1.1.9.1")
             runtimeOnly("org.janusgraph:janusgraph-es:${janusVersion}")
-            runtimeOnly("org.xerial.snappy:snappy-java:1.1.8.2")
+            runtimeOnly("org.xerial.snappy:snappy-java:1.1.9.1")
 	        runtimeOnly("javax.servlet:javax.servlet-api:4.0.1");
             testImplementation("junit:junit:4.13.2")
             testImplementation("org.glassfish:javax.json:1.1.4")
